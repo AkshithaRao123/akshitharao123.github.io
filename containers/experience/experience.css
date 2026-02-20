@@ -1,0 +1,82 @@
+.exp__header {
+    display: flex;
+}
+
+.exp__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* margin-right: 5rem; */
+}
+
+.exp__item {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px 30px;
+}
+
+.exp__item:hover {
+    border: 1px solid violet;
+}
+
+.exp__company {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.exp__logo {
+    width: 100%;
+}
+
+.exp__roles {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(166, 250, 222);
+    font-weight: 600;
+}
+
+.exp__role-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: larger;
+    color: var(--color-text);
+}
+
+hr {
+    margin: 10px 30px;
+}
+
+.exp__single-role {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .exp__item {
+        flex-direction: column;
+    }
+
+    .role_responsive {
+        display: none;
+    }
+
+    .exp__company {
+        width: 100%;
+    }
+
+    .exp__roles {
+        width: 100%;
+    }
+}

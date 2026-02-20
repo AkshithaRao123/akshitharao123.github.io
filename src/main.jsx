@@ -1,0 +1,21 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './index.css'
+import App from './App.jsx'
+import Experience from '../containers/experience/Experience';
+import Certifications from '../components/certifications/Certifications';
+import { Navbar } from '../components';
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Certifications />} />
+      </Routes>
+    </BrowserRouter>
+  </StrictMode>
+)
