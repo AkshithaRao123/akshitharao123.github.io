@@ -1,0 +1,109 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about__container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--color-text);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 70%;
+}
+
+.about__content p {
+    text-align: justify;
+}
+
+.about__interests {
+    margin-top: 3rem;
+    max-width: 70%;
+}
+
+.about__interests h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.interests__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.interest__card {
+    background: rgba(0, 139, 139, 0.3);
+    border: 1px solid rgba(204, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.interest__card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(138, 43, 226, 0.6);
+    box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
+    background: rgba(0, 139, 139, 0.5);
+}
+
+.interest__card h3 {
+    color: var(--color-text);
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.interest__card p {
+    color: rgba(204, 255, 255, 0.8);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    
+}
+
+.interest__card-hobbies {
+    text-align: center;
+    font-weight:700;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 700px) {
+    .about__container h1 {
+        font-size: 1.75rem;
+    }
+
+    .about__interests h2 {
+        font-size: 1.5rem;
+    }
+
+    .about__content {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .interests__grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .interest__card {
+        padding: 1.2rem;
+    }
+
+    .interest__card h3 {
+        font-size: 1.1rem;
+    }
+
+    .interest__card p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './experience.css';
-import { experience_list } from './experience';
+import { experience_list } from './experience_list';
 
 const Experience = () => {
     return (
@@ -19,9 +19,9 @@ const Experience = () => {
                             <hr />
                             <div className='exp__roles'>
                                 {
-                                    company.exp.map((role, index) => (
-                                        <div className='exp__single-role'>
-                                            <div className='exp__role-description' key={index}>
+                                    company.exp.map((role, roleIndex) => (
+                                        <div className='exp__single-role' key={roleIndex}>
+                                            <div className='exp__role-description'>
                                                 <div>{role.role}</div>
                                                 <div className='role_responsive'>{role.role_type}</div>
                                             </div>
