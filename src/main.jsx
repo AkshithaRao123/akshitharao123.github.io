@@ -6,7 +6,7 @@ import App from './App.jsx'
 import Experience from '../containers/experience/Experience';
 import Certifications from '../components/certifications/Certifications';
 import { Navbar } from '../components';
-import { About } from '../containers/index.js'
+import { About, Footer } from '../containers/index.js'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +18,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Certifications />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </StrictMode>
 )

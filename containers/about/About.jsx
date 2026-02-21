@@ -47,25 +47,25 @@ const About = () => {
             <h2 className='gradient__text'>My Interests</h2>
             <div className='interests__grid'>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiLoveSong /> Singing</p>
+                <p><GiLoveSong size={17} /> Singing</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiScooter /> Driving</p>
+                <p><GiScooter size={17} /> Driving</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiFountainPen /> Writing</p>
+                <p><GiFountainPen size={17} /> Writing</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiWalk /> Walking</p>
+                <p><GiWalk size={17} /> Walking</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiPhotoCamera /> Photography</p>
+                <p><GiPhotoCamera size={17} /> Photography</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiOpenBook /> Reading</p>
+                <p><GiOpenBook size={17} /> Reading</p>
               </div>
               <div className='interest__card interest__card-hobbies'>
-                <p><GiChessBishop /> Playing</p>
+                <p><GiChessBishop size={17} /> Playing</p>
               </div>
             </div>
           </div>
