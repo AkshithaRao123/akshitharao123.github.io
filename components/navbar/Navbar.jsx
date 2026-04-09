@@ -1,6 +1,8 @@
+import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Menu = () => (
   <>
@@ -20,6 +22,8 @@ const Menu = () => (
 )
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className='pf__navbar'>
       <div className='pf__navbar_links'>
@@ -33,10 +37,11 @@ const Navbar = () => {
       <div className='pf__navbar-sign'>
         <button type='button'>Contact me</button>
       </div>
-      {/* <div className='pf__navbar-menu'>
+
+      <div className='pf__navbar-menu'>
         {toggleMenu
-          ? <RiCloseLine color="$fff" size={27} onClick={() => setToggleMenu(false)}/>
-          : <RiMenu3Line color="$fff" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className='pf__navbar-menu_container scale-up-center'>
@@ -48,7 +53,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
-      </div> */}
+      </div>
     </div>
   )
 }

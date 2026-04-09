@@ -1,4 +1,3 @@
-import React from 'react';
 import './experience.css';
 import { experience_list } from './experience_list';
 
@@ -6,7 +5,7 @@ const Experience = () => {
     return (
         <div className='App'>
             <div className='gradient__bg section__padding exp__header-content'>
-                <h1 className='gradient__text' style={{ fontSize: '3rem', marginBottom: '2rem' }}>My experience</h1>
+                <h1 className='gradient__text'>My experience</h1>
                 {
                     experience_list.map((company, index) => (
                         <div className='exp__item' key={index}>

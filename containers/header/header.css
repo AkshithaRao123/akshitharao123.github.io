@@ -16,9 +16,8 @@
 .pf__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    /* font-size: ;s */
     line-height: 75px;
-    letter-spacing: -0.04em;
 }
 
 .pf__header-content p {
@@ -39,8 +38,8 @@
 }
 
 .pf__header-image img {
-    width: 50vh;
-    height: 50vh;
+    width: 70%;
+    /* height: 50%; */
     border-radius: 50%;
 }
 
@@ -60,8 +59,7 @@
 
 @media screen and (max-width: 650px) {
     .pf__header h1 {
-        font-size: 48px;
-        line-height: 60px;
+        line-height: 2rem;
     }
 
     .pf__header p {
