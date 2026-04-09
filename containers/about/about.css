@@ -1,35 +1,37 @@
 .about__container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .about__container h1 {
-    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .about__content {
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-direction: row;
     color: var(--color-text);
-    font-size: 1.1rem;
+    text-align: justify;
     line-height: 1.8;
-    max-width: 70%;
+    align-items: center;
+    gap: 2rem;
 }
 
-.about__content p {
-    text-align: justify;
+.myself__img img {
+    border-radius: 10%;
+    border: 10px teal solid;
+}
+
+.myself__img img:hover {
+    transform: rotate(5deg);
 }
 
 .about__interests {
     margin-top: 3rem;
-    max-width: 70%;
 }
 
 .about__interests h2 {
-    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -81,13 +83,14 @@
         font-size: 1.75rem;
     }
 
-    .about__interests h2 {
-        font-size: 1.5rem;
+    .about__content {
+        line-height: 1.6;
+        flex-direction: column-reverse;
     }
 
-    .about__content {
-        font-size: 1rem;
-        line-height: 1.6;
+    .myself__img {
+        display: flex;
+        justify-content: center;
     }
 
     .interests__grid {

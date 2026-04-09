@@ -1,4 +1,5 @@
 import { GiChessBishop, GiFountainPen, GiLoveSong, GiOpenBook, GiPhotoCamera, GiScooter, GiWalk } from "react-icons/gi";
+import mee from '../../assets/mee.jpg'
 import './about.css';
 
 const About = () => {
@@ -8,17 +9,22 @@ const About = () => {
         <div className='about__container'>
           <h1 className='gradient__text'>About Me</h1>
           <div className='about__content'>
-            <p>
-              Hey there! I am Akshitha, a passionate computer science student dedicated to creating meaningful impact through technology.
-            </p>
-            <p>
-              I specialise in web and mobile app development, and also machine learning and AI.
-              My goal is to leverage technology to solve real-world problems and contribute to positive change.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies and continuously learning to improve my skills. 
-              Apart from this, I am into singing. I find driving my two-wheeler refreshing as I see the fleeting natural scenery around me.
-            </p>
+            <div>
+              <p>
+                Hey there! I am Akshitha, a passionate computer science student dedicated to creating meaningful impact through technology.
+              </p>
+              <p>
+                I specialise in web and mobile app development, and also machine learning and AI.
+                My goal is to leverage technology to solve real-world problems and contribute to positive change.
+              </p>
+              <p>
+                When I'm not coding, you can find me exploring new technologies and continuously learning to improve my skills.
+                Apart from this, I am into singing. I find driving my two-wheeler refreshing as I see the fleeting natural scenery around me.
+              </p>
+            </div>
+            <div className="myself__img">
+              <img src={mee} width="70%" />
+            </div>
           </div>
 
           <div className='about__interests'>
@@ -42,9 +48,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          
+
           <div className='about__interests'>
-            <h2 className='gradient__text'>My Interests</h2>
+            <h2 className='gradient__text'>My Hobbies</h2>
             <div className='interests__grid'>
               <div className='interest__card interest__card-hobbies'>
                 <p><GiLoveSong size={17} /> Singing</p>
