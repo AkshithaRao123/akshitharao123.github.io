@@ -1,7 +1,7 @@
 export const experience_list = [
     {
         "company": "Infosys Ltd.",
-        "logo-src": "https://mma.prnewswire.com/media/633365/Infosys_Logo.jpg?p=facebook",
+        "logo-src": "../../assets/company_logos/infosys_logo.webp",
         "exp": [
             {
                 "role": "Systems Engineer Trainee",

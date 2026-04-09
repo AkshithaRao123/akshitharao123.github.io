@@ -1,4 +1,3 @@
-import React from 'react';
 import './techstack.css';
 import { css, mongodb, mysql, html, javascript, fastapi, node, sklearn, tensorflow, python } from './imports';
 

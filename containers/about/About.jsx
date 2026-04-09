@@ -28,11 +28,11 @@ const About = () => {
           </div>
 
           <div className='about__interests'>
-            <h2 className='gradient__text'>My Interests</h2>
+            <h2 className='gradient__text'>My Professional Interests</h2>
             <div className='interests__grid'>
               <div className='interest__card'>
                 <h3>Web Development</h3>
-                <p>I design and create user friendly websites.</p>
+                <p>I design and create user friendly websites, both frontend and backend of it.</p>
               </div>
               <div className='interest__card'>
                 <h3>Mobile App Development</h3>
