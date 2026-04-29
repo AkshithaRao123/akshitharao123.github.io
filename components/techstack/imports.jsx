@@ -8,6 +8,7 @@ import node from '../../assets/node.png';
 import sklearn from '../../assets/sklearn.png';
 import tensorflow from '../../assets/tensorflow.png';
 import python from '../../assets/python.png';
+import react from '../../assets/react.png'
 
 export {
     css,
@@ -19,5 +20,6 @@ export {
     node,
     sklearn,
     tensorflow,
-    python
+    python,
+    react
 }
