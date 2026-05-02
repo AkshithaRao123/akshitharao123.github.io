@@ -13,13 +13,17 @@ import java from '../../assets/java.webp';
 import c from '../../assets/c.jpg';
 import nextjs from '../../assets/nextjs.png';
 import springboot from '../../assets/springboot.png';
+import powerbi from '../../assets/powerbi.png';
+import excel from '../../assets/excel.png';
+import langchain from '../../assets/langchain.png';
+import vectordbs from '../../assets/vectordbs.webp';
 
 export {
     css, springboot,
-    mongodb,
-    mysql,
-    html,
-    javascript,
+    mongodb, powerbi,
+    mysql, excel,
+    html, langchain,
+    javascript, vectordbs,
     fastapi,
     node,
     sklearn,

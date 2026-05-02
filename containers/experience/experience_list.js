@@ -1,7 +1,7 @@
 export const experience_list = [
     {
         "company": "Infosys Ltd.",
-        "logo-src": "../../assets/company_logos/infosys_logo.webp",
+        "logo-src": "../../assets/company_logos/infosys_logo.png",
         "exp": [
             {
                 "role": "Systems Engineer Trainee",
@@ -13,7 +13,7 @@ export const experience_list = [
     },
     {
         "company": "CogniMuse (Marble Software Pvt. Ltd.)",
-        "logo-src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-k11iTNb94lQjHp2-BmG2Z-coHbqd0so9g&s",
+        "logo-src": "../../assets/company_logos/cognimuse.png",
         "exp": [
             {
                 "role": "Full Stack Developer",

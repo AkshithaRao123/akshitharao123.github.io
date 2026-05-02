@@ -1,6 +1,7 @@
 import './techstack.css';
 import { css, mongodb, mysql, html, javascript, fastapi, node, sklearn, 
-  tensorflow, python, react, java, c, nextjs, springboot
+  tensorflow, python, react, java, c, nextjs, springboot,
+  powerbi, excel, langchain, vectordbs
  } from './imports';
 
 const Techstack = () => {
@@ -36,10 +37,10 @@ const Techstack = () => {
         <div><img src={sklearn} alt='scikit-learn' /></div>
         <div><img src={tensorflow} alt='Tensorflow' /></div>
         <div><img src={fastapi} alt='fastapi' /></div>
-        <div><img src={fastapi} alt='PowerBI' /></div>
-        <div><img src={fastapi} alt='Excel' /></div>
-        <div><img src={fastapi} alt='Langchain' /></div>
-        <div><img src={fastapi} alt='VectorDBs' /></div>
+        <div><img src={powerbi} alt='PowerBI' /></div>
+        <div><img src={excel} alt='Excel' /></div>
+        <div><img src={langchain} alt='Langchain' /></div>
+        <div><img src={vectordbs} alt='VectorDBs' /></div>
       </div>
     </>
   )
