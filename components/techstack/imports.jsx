@@ -9,9 +9,13 @@ import sklearn from '../../assets/sklearn.png';
 import tensorflow from '../../assets/tensorflow.png';
 import python from '../../assets/python.png';
 import react from '../../assets/react.png'
+import java from '../../assets/java.webp';
+import c from '../../assets/c.jpg';
+import nextjs from '../../assets/nextjs.png';
+import springboot from '../../assets/springboot.png';
 
 export {
-    css,
+    css, springboot,
     mongodb,
     mysql,
     html,
@@ -21,5 +25,8 @@ export {
     sklearn,
     tensorflow,
     python,
-    react
+    react,
+    java,
+    c,
+    nextjs
 }
