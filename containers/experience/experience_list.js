@@ -1,7 +1,10 @@
+import cognimuse_logo from '../../assets/company_logos/cognimuse.png';
+import infosys_logo from '../../assets/company_logos/infosys_logo.png';
+
 export const experience_list = [
     {
         "company": "Infosys Ltd.",
-        "logo-src": "../../assets/company_logos/infosys_logo.png",
+        "logo-src": infosys_logo,
         "exp": [
             {
                 "role": "Systems Engineer Trainee",
@@ -13,7 +16,7 @@ export const experience_list = [
     },
     {
         "company": "CogniMuse (Marble Software Pvt. Ltd.)",
-        "logo-src": "../../assets/company_logos/cognimuse.png",
+        "logo-src": cognimuse_logo,
         "exp": [
             {
                 "role": "Full Stack Developer",
