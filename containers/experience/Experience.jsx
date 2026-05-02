@@ -11,7 +11,7 @@ const Experience = () => {
                         <div className='exp__item' key={index}>
                             <div className='exp__company'>
                                 <div className='exp__logo'>
-                                    <img src={company['logo-src']} alt='Company logo' width={'100%'} />
+                                    <img src={company.logoSrc} alt='Company logo' width={'100%'} />
                                 </div>
                                 <div>{company.company}</div>
                             </div>
