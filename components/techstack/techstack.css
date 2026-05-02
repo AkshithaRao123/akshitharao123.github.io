@@ -17,15 +17,40 @@
 }
 
 .pf__techstack > div {
+    position: relative; /* added so ::after positions relative to the tile */
     background-color: #f1f1f1;
     width: 150px;
     margin: 10px;
     border-color: darkblue;
     border-radius: 10px;
+    overflow: hidden; /* keep label inside the tile */
 }
 
 .pf__techstack > div:hover {
-    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+.pf__techstack > div::after {
+    content: attr(data-tool);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 5;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.pf__techstack > div:hover::after {
+    opacity: 1;
 }
 
 #caption {
