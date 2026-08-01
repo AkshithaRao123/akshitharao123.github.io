@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin-left: 5%;
-    margin-right: 5%;
     border-radius: 20px;
 }
 
@@ -22,7 +20,7 @@
     width: 150px;
     margin: 10px;
     border-color: darkblue;
-    border-radius: 10px;
+    border-radius: 10%;
     overflow: hidden; /* keep label inside the tile */
 }
 
@@ -53,10 +51,27 @@
     opacity: 1;
 }
 
+.pf__techstack_section {
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pf__techstack_navbuttons {
+    background-color: rgb(6, 107, 107);
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
 #caption {
     font-family: var(--font-family);
     color: aquamarine;
     width:100%;
-    align-content: center;
+    text-align: center;
 }
 
