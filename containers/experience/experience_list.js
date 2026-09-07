@@ -7,9 +7,15 @@ export const experience_list = [
         logoSrc: infosys_logo,
         exp: [
             {
+                role: "Systems Engineer",
+                role_type: "Full-time",
+                time: "Apr 2026 - Present",
+                location: "Hinjawadi, Pune, Maharashtra"
+            },
+            {
                 role: "Systems Engineer Trainee",
                 role_type: "Trainee",
-                time: "Oct 2025 - Present",
+                time: "Oct 2025 - Apr 2026",
                 location: "Hebbal, Mysore, Karnataka"
             }
         ]
